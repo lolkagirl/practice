@@ -1,0 +1,91 @@
+body{
+    background: #f2f2f2;
+    font-family: «Times New Roman», Times, serif;
+}
+main{
+    width: 90%;
+    margin-left: auto;
+    margin-right: auto;
+    text-align:justify
+}
+
+h1{
+    font-size: 1.4em;
+    color: #1c1404;
+    text-align: center;
+    font-weight: bold;
+    margin-top: 4%;
+    margin-bottom: 4%;
+}
+h2{
+    font-size: 1.1em;
+    color: #1c1404;
+    font-weight: 600;
+    text-indent: 1vw;
+}
+h3{
+    font: 1.2em;
+    text-align: center;
+    font-weight: bold;
+}
+p{
+    font-size: 1.1em;
+    text-indent: 1vw;
+}
+a{
+  text-decoration: none;  
+}
+a:hover {
+    text-decoration: underline;
+    color: #2300a0;
+  }
+.hidden {
+    display: none;
+}
+.text-area{
+    width: 80%;
+    height: 15vw;
+    background: #ffffff;
+    border: 0.2vw solid #9b9999; /* просто для визуализации размеров */
+    overflow: auto; /* добавляем прокрутку в случае переполнения содержимого */
+    margin-left: auto;
+    margin-right: auto;
+
+}
+.area{
+width: 90%;
+height: auto;
+display: flex;
+flex-direction: row;
+align-items: center;
+margin-left: 2%;
+margin-right: 2%;
+}
+
+.img{
+width: 40%;
+height: 40%;
+display: flex;
+justify-content: center;
+align-items: center;
+
+}
+p1{
+    width: auto;
+    margin-left: 2%;
+    margin-right: 2%;
+    font-size: 1.1em;
+    
+}
+button {
+    margin: 10px; /* добавляем отступы для кнопок */
+    font: 1.05em;
+}
+
+.button-container {
+    display: flex;
+    justify-content: center; /* выравниваем кнопки по центру по горизонтали */
+}
+.sigma{
+    width: 95%;
+}

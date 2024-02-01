@@ -1,0 +1,66 @@
+/* Базовый стиль для меню */
+header{
+  color: black;
+}
+.menu {
+    width: 75%;
+    list-style-type: none;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    margin-left: auto;
+    margin-right: auto;
+  }
+  
+  /* Стили для пунктов меню */
+  .menu li {
+    
+    position: relative; /* Позиционирование потомков */
+  }
+  
+  /* Стили для выпадающего меню */
+  .dropdown {
+    position: relative;
+  }
+  
+  .dropdown-content {
+    display: none;
+    position: absolute;
+    background-color: #f9f9f9;
+    min-width: 20vw; /* Изменим минимальную ширину выпадающего меню */
+    
+    padding-top: 3%; /* Добавим небольшой верхний отступ */
+  }
+  
+  .dropdown:hover .dropdown-content {
+    display: block;
+  }
+  
+  /* Стили для ссылок в выпадающем меню */
+  .dropdown-content a {
+    color: black;
+    padding: 12px 16px;
+    text-decoration: none;
+    display: block;
+  }
+  
+  .dropdown-content a:hover {
+    background-color: #f1f1f1;
+  }
+  /* стиль стрелочки для высновного пункта меню */
+.dropbtn:after {
+    content: "\25BC"; /* Юникодный символ для стрелочки вниз */
+    display: inline-block;
+    margin-left: 5px;
+  }
+  
+  /* стиль для вложенных пунктов меню, чтобы убрать стрелочку */
+  .dropdown-content a:after {
+    content: none; /* Убираем стрелочку для пунктов в выпадающем меню */
+  }
+
+  li{
+    font-size: 1.1em;
+    color: black;
+  }
+  
